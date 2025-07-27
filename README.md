@@ -35,10 +35,3 @@ This Selenium-based Java automation script intelligently navigates the flight bo
 3. Clone this repository or paste the source into your IDE.
 4. Run `YatraAutomationScript.java` as a standalone Java application.
 5. Observe the console output to view lowest price comparisons.
-
-## 🛠️ Troubleshooting
-
-If you encounter a `NumberFormatException`, ensure price strings are cleaned using:
-
-```java
-priceValue = priceValue.replace("₹", "").replace(",", "");
